@@ -1,0 +1,61 @@
+.ReadPosts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px; 
+    justify-items: center; 
+  }
+  
+  .card {
+    position: relative;
+    margin: 3em;
+    max-width: 450px;
+    min-width: 300px;
+    border-radius: 10px;
+    border: 1px solid #939393;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding: 3em 2em;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.597);
+    overflow: hidden;
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+  
+  .card .name,
+  .card .description {
+    position: relative;
+    z-index: 2; 
+    margin: 0;
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center; /* Vertically align items */
+    justify-content: space-between; /* Add space between the h2 and the link */
+    position: relative;
+    z-index: 2; /* Ensure content is above the overlays */
+  }
+  
+  .socials {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    z-index: 2; /* Ensure content is above the overlays */
+  }
+  
+  .socials a {
+    cursor: pointer;
+  }
+  
+  .card-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icon-link {
+    cursor: pointer;
+  }
+  

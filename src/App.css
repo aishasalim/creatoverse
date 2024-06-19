@@ -1,0 +1,11 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem 0;
+  text-align: center;
+}
+.btn {
+  padding: 1em;
+  margin: 3em 1em;
+  border-radius: 14px;
+}

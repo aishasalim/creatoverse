@@ -1,0 +1,50 @@
+.info-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.info-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.info-image {
+  border-radius: 8px;
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 20px;
+  margin-top: 1em;
+}
+
+.info-text {
+  max-width: 450px;
+}
+
+.info-name {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.info-description {
+  margin-bottom: 20px;
+}
+
+.info-socials a {
+  margin-right: 10px;
+}
+
+@media (max-width: 800px) {
+  .info-content {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .info-image {
+    margin-right: 0; 
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,40 @@
+form{
+    margin: 4em;
+}
+
+form input {
+    font: sans-serif;
+    width: 70%;
+    padding: 1em;
+    margin: 0.5em 0;
+    border-radius: 14px;
+    border: 1px solid #ccc;
+  }
+  textarea {
+    font: sans-serif;
+    width: 70%;
+    padding: 1em;
+    margin: 0.5em 0;
+    border-radius: 14px;
+    border: 1px solid #ccc;
+  }
+  .submit-btn, .delete-btn{
+    width: 100px;
+  }
+  .delete-btn{
+    background-color: rgb(234, 128, 128);
+    color: white;
+  }
+.edit-btn{
+  width: 100px;
+  background-color: rgb(140, 189, 95);
+  color: white;
+}
+
+
+  label{
+    margin-top: 2em;
+    text-align: left;
+    
+  }
+  
